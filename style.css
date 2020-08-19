@@ -7,19 +7,45 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    /* padding: 0; */
 }
 
-.nav {
-    /* width: 100%; */
+/* section {
+    height: 400px;
+    width: 400px;
+} */
+
+#navbar {
+    width: 100%;
     background: var(--main-red);
-    /* position: fixed; */
-    /* box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4); */
+    position: fixed;
+    padding: 20px;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./img/lum3n--RBuQ2PK_L8-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+header h1 {
+    font-size: 80px;
+}
+
+header p {
+    font-size: 40px;
+}
+
+#projects {
+    height: 80vh;
 }
 
 .NavbarCostume {
@@ -40,6 +66,55 @@ body {
     text-justify: var(--main-white);
 }
 
-#welcome-section{
+#welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#projects{
+    display: flex;
+    justify-content: center;
+}
+
+#Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+    width: 100%;
+    padding: 0 2rem;
+    background-color: lavender;
+    /* margin-bottom: 100px; */
+}
+
+#Contact > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.social-ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.social-ul i {
+    color: var(--main-blue);
+    font-size: 30px;
+    margin: 0 10px;
+
+}
+
+footer {
+    background-color: var(--main-red);
+    color: var(--main-white);
+    padding: 10px;
     text-align: center;
 }
