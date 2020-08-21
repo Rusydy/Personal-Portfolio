@@ -45,6 +45,8 @@ header p {
 
 #projects {
     height: 80vh;
+    color: var(--main-pink);
+    margin-top: 20px;
 }
 
 .NavbarCostume {
@@ -72,10 +74,56 @@ header p {
     flex-direction: column;
 }
 
-#projects{
-    display: flex;
-    justify-content: center;
+.project-section{
+    display: grid;
+    /* justify-content: center; */
+    text-align: center;
+    position: relative;
+    z-index: -1;
+    /* display: grid; */
+    /* grid-template-columns: 250px 1fr;
+    grid-template-rows: 150px 1fr; */
 }
+
+/* #project > h2 {
+    text-align: center;
+    justify-content: center;
+} */
+
+#cards {
+    position: absolute;
+    top: 150px;
+    /* left: 230px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    /* grid-template-rows: auto; */
+    margin-left: 200px;
+    grid-gap: 0.5rem;
+    width: 100%;
+    max-width: 900px;
+    z-index: -1;
+}
+
+/* 
+.child {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.parent {
+    position: relative;
+}
+*/
+
+.cardMod {
+    height: 18rem;
+}
+
+/* .button{
+    color: var(--main-pink);
+    background-color: lawngreen;
+} */
 
 #Contact {
     display: flex;
@@ -90,10 +138,10 @@ header p {
     color: var(--main-white);
 }
 
-#Contact > p {
+#Contact-Header{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    font-size: 2.5rem;
 }
 
 .social-ul {
@@ -107,7 +155,7 @@ header p {
 .social-ul i {
     color: var(--main-blue);
     font-size: 30px;
-    margin: 0 10px;
+    margin: 0 20px;
 
 }
 
