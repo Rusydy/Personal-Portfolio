@@ -161,7 +161,7 @@ footer {
     }
 
     #last {
-        margin-top: 600px;
+        margin-top: 600px; /*change this for put more cards, it still not responsive enough*/
         display: flex;
         flex-direction: column;
     }
