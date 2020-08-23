@@ -161,11 +161,8 @@ footer {
     }
 
     #last {
-        /* top: 2000px; */
         margin-top: 600px;
         display: flex;
         flex-direction: column;
-        /* align-items: flex-end; */
-        /* justify-content: flex-end; */
     }
 }
