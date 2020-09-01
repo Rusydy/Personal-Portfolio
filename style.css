@@ -171,33 +171,39 @@ footer {
     }
 }
 
+/* Kindle Fire HDX Linux */
 @media only screen and (max-width: 800px) {
     #last {
-        margin-top: 550px;
+        margin-top: 900px;
     }
 }
 
+/* iPad */
 @media only screen and (max-width: 768px) {
-    #last {
-        margin-top: 800px;
-    }
-}
-
-@media only screen and (max-width: 414px) {
-    #last {
-        margin-top: 1080px;
-    }
-}
-
-@media only screen and (max-width: 375px) {
     #last {
         margin-top: 1100px;
     }
 }
 
+/* iPhone 6/7/8 Plus iOS 11 Safari 11 */
+@media only screen and (max-width: 414px) {
+    #last {
+        margin-top: 1380px;
+    }
+}
+
+
+/* iPhone X/iOS 12 */
+@media only screen and (max-width: 375px) {
+    #last {
+        margin-top: 1300px;
+    }
+}
+
+/* Galaxy S9/S9+ */
 @media only screen and (max-width: 360px) {
     #last {
-        margin-top: 1050px;
+        margin-top: 1380px;
     }
 }
 
