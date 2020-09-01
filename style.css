@@ -167,15 +167,33 @@ footer {
     }
 }
 
+@media only screen and (max-width: 800px) {
+    #last {
+        margin-top: 550px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #last {
+        margin-top: 800px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    #last {
+        margin-top: 1080px;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     #last {
-        margin-top: 700px;
+        margin-top: 1100px;
     }
 }
 
 @media only screen and (max-width: 360px) {
     #last {
-        margin-top: 760px;
+        margin-top: 1050px;
     }
 }
 
