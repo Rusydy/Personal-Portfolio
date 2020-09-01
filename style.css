@@ -47,6 +47,8 @@ header p {
     height: 80vh;
     color: var(--main-pink);
     margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;;
 }
 
 .NavbarCostume {
@@ -77,6 +79,8 @@ header p {
 .project-section{
     display: grid;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     position: relative;
     z-index: -1;
     grid-auto-columns: auto-fill;
