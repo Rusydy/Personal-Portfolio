@@ -21,6 +21,7 @@ body {
     background: var(--main-red);
     position: fixed;
     padding: 20px;
+    z-index: 1;
 }
 
 header {
@@ -82,7 +83,7 @@ header p {
     align-items: center;
     justify-content: center;
     position: relative;
-    z-index: -1;
+    /* z-index: -1; */
     grid-auto-columns: auto-fill;
 }
 
@@ -96,7 +97,7 @@ header p {
     grid-gap: 20px;
     width: 100%;
     max-width: 900px;
-    z-index: -1;
+    /* z-index: -1; */
 }
 
 .cardMod {
